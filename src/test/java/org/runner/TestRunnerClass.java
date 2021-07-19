@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "src\\test\\resources" }, glue = { "org.stepDef" }, plugin = { "pretty",
-		"json:src\\test\\resources\\Reports\\AutomationFacebook.json" }, tags= {"~@A"})
+		"json:src\\test\\resources\\Reports\\AutomationFacebook.json" }, tags = { "~@A" })
 public class TestRunnerClass {
 
 	@AfterClass
@@ -18,6 +18,16 @@ public class TestRunnerClass {
 
 		JvmReport.generateReport(
 				System.getProperty("user.dir") + "\\src\\test\\resources\\Reports\\AutomationFacebook.json");
+	}
+
+	public void add() {
+		System.out.println("Add");
+
+	}
+
+	public void sub() {
+		System.out.println("Sub");
+
 	}
 
 }
