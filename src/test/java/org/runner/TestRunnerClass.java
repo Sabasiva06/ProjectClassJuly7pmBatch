@@ -30,4 +30,18 @@ public class TestRunnerClass {
 
 	}
 
+	public void div() {
+		System.out.println("div");
+
+	}
+
+	public void multiple() {
+		System.out.println("Multiple");
+
+	}
+
+	public void sample() {
+		System.out.println("Sample");
+	}
+
 }
