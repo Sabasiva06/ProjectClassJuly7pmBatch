@@ -20,6 +20,16 @@ public class TestRunnerClass {
 				System.getProperty("user.dir") + "\\src\\test\\resources\\Reports\\AutomationFacebook.json");
 	}
 
+	public void add() {
+		System.out.println("Add");
+
+	}
+
+	public void sub() {
+		System.out.println("Sub");
+
+	}
+
 	public void div() {
 		System.out.println("div");
 
@@ -32,7 +42,6 @@ public class TestRunnerClass {
 
 	public void sample() {
 		System.out.println("Sample");
-
 	}
 
 }
